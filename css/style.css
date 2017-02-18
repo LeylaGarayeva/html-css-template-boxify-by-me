@@ -1,0 +1,365 @@
+/*--------------------------------------*/
+/*          Leyla Garayeva              */
+/*--------------------------------------*/
+html,body{
+	margin: 0;
+}
+*{
+	list-style: none;
+	text-decoration: none;
+}
+*, *::before, *::after {
+    transition: all .3s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: initial;
+}
+.clear{
+	clear: both;
+}
+.bg{
+	position: relative;
+    padding: 60px 0 60px 0;
+    min-height: 800px;
+    background: rgb(40, 70, 102) url(../images/hero-01.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+.logo img{
+	padding:0px  50px;
+}
+.logo{
+	float: left;
+}
+.menu {
+	float: right;
+	padding:0px  50px 0px 0px;
+	font-size:16px;
+	cursor:pointer;
+}
+.overlay-content{
+	margin-left: 15%;
+}
+.menu_block{
+	border:1px solid white;
+	float: left;
+	padding: 50px;
+	margin-top:13%;
+	margin-left: 2%;
+	text-align: center;
+	text-transform: uppercase;
+}
+.menu_block i{
+	display: block;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.menu_block:hover  {
+	border:1px solid #73d0da;
+	color:#73d0da;
+}
+.menu_block:hover i {
+	color:#73d0da;
+}
+.bg h1{
+	padding: 50px;
+	margin-top: 8%;
+}
+.bg_input{
+	padding: 60px;
+}
+.bg_input  input{
+	padding: 13px 25px;
+	font-size: 1.2em;
+} 
+.use{
+	color:#73d0da;
+	background-color: white;
+	border:none;
+
+}
+.use:hover{
+	background-color:#73d0da; 
+	border:none;
+	color:white;
+}
+.learn{
+    background-color: rgba(50,50,50,0.16);
+	color:white;
+	border:2px solid white;
+}
+.learn:hover{
+	background-color: rgba(50,50,50,0.16);
+	color:#73d0da;
+	border:2px solid #73d0da;
+}
+/*        HEADER END ----------          */
+.youtube{
+	padding: 50px;
+	text-align: center;
+}
+.youtube i{
+	    font-size: 50px;
+	    padding: 10px;
+}
+
+.youtube span{
+	font-size: 30px;
+}
+.youtube:hover{
+	color:#73d0da;
+}
+
+/*------------CONTAINER ------------*/
+.slider_first{
+	background: #3f6184;
+	color:white;
+	width: 100%;
+	height: 400px;
+}
+.first{
+   width: 50%;
+   background-image: url(../images/features-intro.jpg);
+   background-size: cover;
+   position: relative;
+   padding: 60px 0 60px 0;
+   height: 400px;
+   text-align: center;
+   line-height: 400px;
+   float: left;
+}
+
+.first_text p:nth-child(1){
+	padding: 50px;
+	text-align: center;
+	font-size: 1.3em;
+}
+.first_text a{
+	color:#73d0da;
+	padding: 30px;
+}
+.first_text{
+	margin-left: 52%
+}
+/*-------------ICONS--------------*/
+.icons{
+	margin: 100px;
+	float: left;
+
+}
+.icon_block{
+	float: left;
+	margin-left: 1%;
+	width: calc((90%-40px)/3);
+}
+.icon_text{
+	float: right;
+	width: 70%;
+}
+.round{
+	display: inline-block;
+    width: 90px;
+    height: 90px;
+    border: solid 2px #4e9ba3;
+    border-radius: 50%;
+    vertical-align: top;
+    text-align: center;
+    font-size: 25px;
+    line-height: 90px;
+    float: left;
+    margin-top: 6%;
+    /* margin-left: calc(100%/3); */
+}
+.round i{
+	color:#4e9ba3;
+}
+.icon_text p:nth-child(1){
+	color: #24374b;
+	font-size: 1.2em;
+}
+.icon_text p:nth-child(2){
+    margin-bottom: 20px;
+    color: #778899;
+}
+.icon_text a:hover{
+	color:#4e9ba3;
+}
+
+
+/*-----------IPHONE-------------*/
+.show{
+	width: 100%;
+   background-image: url(../images/showcase-bg-fixed.jpg);
+   background-size: cover;
+   position: relative;
+   padding: 60px 0 60px 0;
+   min-height: 620px;
+   text-align: center;
+}
+.iphone{
+	float: left;
+	position: absolute;
+    left: 10%;
+    min-height: 676px;
+    width: 359px;
+    background: url(../images/iphone-skeleton.png) no-repeat center center;
+}
+.ip_bg{
+	 background: url(../images/screen1.jpg) no-repeat center center;
+	 background-size: cover;
+	 height: 445px;
+	 width: 247px;
+	 left: 15.5%;
+	 top:17.1%;
+	 position: absolute;
+}
+.ip_right{
+	float: right;
+	width: 50%;
+	color:white;
+}
+.ip_right p:nth-child(1){
+	padding:50px;
+	font-size: 1.3em;
+}
+.avatar img{
+	float: left;
+}
+.avatar p{
+	float: left;
+}
+.avatar p{
+	width: 80%;
+}
+.codrops{
+	margin-bottom: 50px;
+	float: left;
+	margin-left: 10%;
+}
+.download-btn{
+	border: 2px solid white;
+	padding: 15px 40px;
+	font-size: 1.2em;
+	float: left;
+}
+.download-btn:hover {
+	color: #73d0da;
+	border: 2px solid #73d0da;
+}
+
+/* --------------PACKED-------------- */
+.packed{
+	padding: 100px;
+	background: #f6f7f9;
+}
+.packed p:nth-child(1){
+	font-size: 1.3em;
+	color: #24374b;
+}
+.packed p:nth-child(2){
+	 color: #778899;
+}
+.packed a{
+	color: #73d0da;
+}
+/* -------IMAGES------------- */
+.img_block{
+	width: calc(100%/4);
+	float: left;
+	background-color: rgba(63, 97, 132, 0.85);
+	height: 220px;
+	color: transparent;
+}
+.img_block i{
+	font-size: 40px;
+}
+.img_block [class^="photo"]:hover {
+    opacity:0.2; 
+	text-align: center;
+	padding: 50px;
+	font-size: 1.2em;
+	font-weight: bold;
+	color:white ;
+}
+
+.photo{
+	background-image: url('../images/large/01.jpg');
+	width: 100%;
+	height: 100%;
+}
+.photo2{
+	background-image: url('../images/large/02.jpg');
+	width: 100%;
+	height: 100%;
+}
+.photo3{
+	background-image: url('../images/large/03.jpg');
+	width: 100%;
+	height: 100%;
+}
+.photo4{
+	background-image: url('../images/large/04.jpg');
+	width: 100%;
+	height: 100%;
+}
+.photo5{
+	background-image: url('../images/large/05.jpg');
+	width: 100%;
+	height: 100%;
+}.photo6{
+	background-image: url('../images/large/06.jpg');
+	width: 100%;
+	height: 100%;
+}
+.photo7{
+	background-image: url('../images/large/07.jpg');
+	width: 100%;
+	height: 100%;
+}
+.photo8{
+	background-image: url('../images/large/08.jpg');
+	width: 100%;
+	height: 100%;
+}
+/*-------------SEEN---------------------------*/
+.seen{
+	background-color: #3f6184;
+	top: 0;
+	padding: 50px;
+	text-align: center;
+	color: white;
+	padding-bottom: 8%;
+}
+.seen p{
+	padding: 20px;
+	font-size:40px;
+}
+.seen a{
+	border: 2px solid white;
+	padding: 15px 40px;
+	font-size: 1.2em;
+
+}
+.seen a:hover {
+	color: #73d0da;
+	border: 2px solid #73d0da;
+}
+/* ------------FOOTER------------ */
+footer{
+	padding: 100px
+}
+footer img{
+	float: left;
+}
+
+.fot_menu{
+	float: right;
+}
+.fot_menu ul li{
+	display: inline;
+	padding-left: 50px;
+}
+.fot_menu ul li:hover{
+	color: #73d0da;
+}
